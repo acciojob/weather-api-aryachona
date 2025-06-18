@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #e0f7fa;
+  text-align: center;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #0288d1;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+#weatherData {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #004d40;
+}
